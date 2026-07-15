@@ -1,3 +1,0 @@
-{{ $url := .Get "url"}}
-{{ $text := .Inner}}
-{{ partial "styled_link.html" (dict "color" .Site.Params.style.primaryColor "url" $url "text" $text "title" $text) }}
